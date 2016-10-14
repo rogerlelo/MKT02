@@ -1,0 +1,19 @@
+[14-Oct-2016 18:09:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Closure::__set_state() in C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\data\cache\app_config.php:33
+Stack trace:
+#0 C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\config\config.php(20): include()
+#1 C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\config\container.php(7): require('C:\\Users\\Luiz\\D...')
+#2 C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\public\index.php(14): require('C:\\Users\\Luiz\\D...')
+#3 {main}
+  thrown in C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\data\cache\app_config.php on line 33
+[14-Oct-2016 18:15:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Closure::__set_state() in C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\data\cache\app_config.php:35
+Stack trace:
+#0 C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\config\config.php(20): include()
+#1 C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\config\container.php(7): require('C:\\Users\\Luiz\\D...')
+#2 C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\public\index.php(14): require('C:\\Users\\Luiz\\D...')
+#3 {main}
+  thrown in C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\data\cache\app_config.php on line 35
+[14-Oct-2016 18:17:09 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CodeEmailMKT\Application\Middleware\BootstrapMiddleware::__construct() must be an instance of CodeEmailMKT\Domain\Service\BootstrapInterface, none given, called in C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\vendor\zendframework\zend-expressive\src\MarshalMiddlewareTrait.php on line 124 and defined in C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\src\CodeEmailMKT\Application\Middleware\BootstrapMiddleware.php:13
+Stack trace:
+#0 C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\vendor\zendframework\zend-expressive\src\MarshalMiddlewareTrait.php(124): CodeEmailMKT\Application\Middleware\BootstrapMiddleware->__construct()
+#1 C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\vendor\zendframework\zend-expressive\src\MarshalMiddlewareTrait.php(57): Zend\Expressive\Application->marshalInvokableMiddleware('CodeEmailMKT\\Ap...')
+#2 C:\Users\Luiz\Documents\Code.education in C:\Users\Luiz\Documents\Code.education\Projetos alunos\php7\rogerioantonio\src\CodeEmailMKT\Application\Middleware\BootstrapMiddleware.php on line 13
